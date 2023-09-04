@@ -15,7 +15,6 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
       {...props}
     >
       <span class="button-label">{label}</span>
-      <img src="/images/basket.svg"/>
     </button>
   );
 };
